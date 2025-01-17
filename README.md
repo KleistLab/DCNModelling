@@ -7,7 +7,7 @@ The code in this repository implements the data analysis, modelling and simulati
 Experimental data files: 
 - Fig4E_Fibers-time_TubGFP_Live_updated.xlsx: file that contains the experimental data needed to run the scripts `analyse_experimental_data.py`, `estimate_birth_death_parameters.py`, `simulate_medulla_targeting.py` and `simulate_medulla_targeting_alternativeVersion.py`  
 - DATA-set_Analyse_Intravital.xlsx: file that contains the experimental data needed to run the scripts `data_frame_rate_analysis_intraVital_dataset1.py`, `data_frame_rate_analysis_intraVital_dataset2.py`, `data_lifespan_analysis_intraVital_dataset1.py` and `data_lifespan_analysis_intraVital_dataset2.py`   
-- dataset-20231211.csv: file that contains the experimental data needed to run the scripts `data_frame_rate_analysis_allTimes_exVivo.py` and `data_lifespan_analysis_exVivo.py`
+- dataset-20231211.csv: file that contains the experimental data needed to run the scripts `data_frame_rate_analysis_allTimes_exVivo.py`, `data_lifespan_analysis_exVivo.py` and `spatial_analysis.py` 
 
 
 
@@ -22,6 +22,7 @@ Code files:
 - `data_lifespan_analysis_exVivo.py`: calculates and plots the filopofia lifespan trajectories for the experimental data contained in the data file dataset-20231211.csv
 - `data_lifespan_analysis_intraVital_dataset1.py`: calculates and plots the filopofia lifespan trajectories for the experimental data contained in the tab "RAW_20170817_Ctrl" of the data file DATA-set_Analyse_Intravital.xlsx
 - `data_lifespan_analysis_intraVital_dataset2.py`: calculates and plots the filopofia lifespan trajectories for the experimental data contained in the tab "RAW_20181024_Ctrl" of the data file DATA-set_Analyse_Intravital.xlsx
+- `spatial_analysis.py`: calculates and plots the proportion of axonal structures with tubulin filopodia as a function of space across the lobula
 
 Required modules: os, pandas, numpy, scipy, matplotlib, copy, math
 
